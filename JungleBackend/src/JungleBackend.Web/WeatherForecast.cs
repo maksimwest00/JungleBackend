@@ -1,4 +1,4 @@
-namespace TestWebApplication;
+namespace JungleBackend.Web;
 
 public class WeatherForecast
 {

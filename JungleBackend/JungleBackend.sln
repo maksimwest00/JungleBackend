@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JungleBackend.Web", "src\JungleBackend.Web\JungleBackend.Web.csproj", "{4048DF23-2A68-42DF-97E3-EF0C262FFDA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A26C80B2-2256-4BCA-942F-BFA0CCAF2DB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7B6D07D2-8341-46CE-A77E-55FC873F6CA3}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		docker-compose-dev.yml = docker-compose-dev.yml
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4048DF23-2A68-42DF-97E3-EF0C262FFDA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4048DF23-2A68-42DF-97E3-EF0C262FFDA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4048DF23-2A68-42DF-97E3-EF0C262FFDA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4048DF23-2A68-42DF-97E3-EF0C262FFDA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4048DF23-2A68-42DF-97E3-EF0C262FFDA6} = {A26C80B2-2256-4BCA-942F-BFA0CCAF2DB2}
+	EndGlobalSection
+EndGlobal
