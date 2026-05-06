@@ -21,4 +21,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI"/>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JungleBackend.Application\JungleBackend.Application.csproj"/>
+    <ProjectReference Include="..\JungleBackend.Contracts\JungleBackend.Contracts.csproj"/>
+    <ProjectReference Include="..\JungleBackend.Domain\JungleBackend.Domain.csproj"/>
+    <ProjectReference Include="..\JungleBackend.Infrastructure\JungleBackend.Infrastructure.csproj"/>
+    <ProjectReference Include="..\JungleBackend.Presenters\JungleBackend.Presenters.csproj"/>
+  </ItemGroup>
+
 </Project>

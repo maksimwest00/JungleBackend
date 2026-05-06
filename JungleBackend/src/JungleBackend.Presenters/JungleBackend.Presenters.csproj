@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\JungleBackend.Application\JungleBackend.Application.csproj"/>
+    <ProjectReference Include="..\JungleBackend.Contracts\JungleBackend.Contracts.csproj"/>
+    <ProjectReference Include="..\JungleBackend.Domain\JungleBackend.Domain.csproj"/>
+    <ProjectReference Include="..\JungleBackend.Infrastructure\JungleBackend.Infrastructure.csproj"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core"/>
+  </ItemGroup>
+
+
+</Project>
