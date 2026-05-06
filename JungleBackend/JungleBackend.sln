@@ -13,6 +13,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Dockerfile = Dockerfile
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JungleBackend.Application", "src\JungleBackend.Application\JungleBackend.Application.csproj", "{657A44AE-FF4B-4D0D-B46A-B541161AF29F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JungleBackend.Domain", "src\JungleBackend.Domain\JungleBackend.Domain.csproj", "{0514D5C4-F200-430A-95F0-1F1F3F9AD68B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JungleBackend.Contracts", "src\JungleBackend.Contracts\JungleBackend.Contracts.csproj", "{C5643F8A-3157-40A6-94BF-2746135D629A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JungleBackend.Infrastructure", "src\JungleBackend.Infrastructure\JungleBackend.Infrastructure.csproj", "{E1CCCC30-FA81-4864-A3A6-BA53650AC0B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JungleBackend.Presenters", "src\JungleBackend.Presenters\JungleBackend.Presenters.csproj", "{42C77873-A09D-4A1A-9D2A-ADE6533D515F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,8 +33,33 @@ Global
 		{4048DF23-2A68-42DF-97E3-EF0C262FFDA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4048DF23-2A68-42DF-97E3-EF0C262FFDA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4048DF23-2A68-42DF-97E3-EF0C262FFDA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657A44AE-FF4B-4D0D-B46A-B541161AF29F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657A44AE-FF4B-4D0D-B46A-B541161AF29F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657A44AE-FF4B-4D0D-B46A-B541161AF29F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657A44AE-FF4B-4D0D-B46A-B541161AF29F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0514D5C4-F200-430A-95F0-1F1F3F9AD68B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0514D5C4-F200-430A-95F0-1F1F3F9AD68B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0514D5C4-F200-430A-95F0-1F1F3F9AD68B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0514D5C4-F200-430A-95F0-1F1F3F9AD68B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5643F8A-3157-40A6-94BF-2746135D629A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5643F8A-3157-40A6-94BF-2746135D629A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5643F8A-3157-40A6-94BF-2746135D629A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5643F8A-3157-40A6-94BF-2746135D629A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1CCCC30-FA81-4864-A3A6-BA53650AC0B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1CCCC30-FA81-4864-A3A6-BA53650AC0B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1CCCC30-FA81-4864-A3A6-BA53650AC0B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1CCCC30-FA81-4864-A3A6-BA53650AC0B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42C77873-A09D-4A1A-9D2A-ADE6533D515F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42C77873-A09D-4A1A-9D2A-ADE6533D515F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42C77873-A09D-4A1A-9D2A-ADE6533D515F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42C77873-A09D-4A1A-9D2A-ADE6533D515F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4048DF23-2A68-42DF-97E3-EF0C262FFDA6} = {A26C80B2-2256-4BCA-942F-BFA0CCAF2DB2}
+		{657A44AE-FF4B-4D0D-B46A-B541161AF29F} = {A26C80B2-2256-4BCA-942F-BFA0CCAF2DB2}
+		{0514D5C4-F200-430A-95F0-1F1F3F9AD68B} = {A26C80B2-2256-4BCA-942F-BFA0CCAF2DB2}
+		{C5643F8A-3157-40A6-94BF-2746135D629A} = {A26C80B2-2256-4BCA-942F-BFA0CCAF2DB2}
+		{E1CCCC30-FA81-4864-A3A6-BA53650AC0B6} = {A26C80B2-2256-4BCA-942F-BFA0CCAF2DB2}
+		{42C77873-A09D-4A1A-9D2A-ADE6533D515F} = {A26C80B2-2256-4BCA-942F-BFA0CCAF2DB2}
 	EndGlobalSection
 EndGlobal
