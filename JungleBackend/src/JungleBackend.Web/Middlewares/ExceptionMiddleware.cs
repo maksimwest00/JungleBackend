@@ -41,7 +41,7 @@ public class ExceptionMiddleware
         context.Response.StatusCode = StatusCodes.Status500InternalServerError;
 
 
-        var error = Error.Failure(null, ["Something went wrong"]);
+        Error error = Error.Failure(null, ["Something went wrong"]);
         await context.Response.WriteAsJsonAsync(Envelope.Error(error));
     }
 }
