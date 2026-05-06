@@ -1,6 +1,6 @@
-namespace JungleBackend.Web;
+namespace JungleBackend.Contracts;
 
-public class WeatherForecast
+public class WeatherForecastDto
 {
     public DateOnly Date { get; set; }
 
